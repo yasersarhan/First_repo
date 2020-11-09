@@ -9,3 +9,9 @@ print(tup2)
 tup3 = tup1 + tup2
 print(tup3)
 
+del tup2
+print(tup3)
+print(tup2)
+
+
+
