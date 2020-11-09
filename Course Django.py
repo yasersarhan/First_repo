@@ -26,14 +26,23 @@ dict1['School'] = 'Yas School'
 print(dict1['School'])
 print(dict1)
 
-del dict1['Name']
-print(dict1)
+f = dict1.copy()
+print(f)
 
-dict1.clear()
-print(dict1)
+print(dict1.get('Name'))
+print(dict1.items())
 
-del dict1
-print(dict1)
+print(f.keys())
+print(f.values())
+
+d = {'gender' : 'male'}
+print(d)
+
+d.update(f)
+print(d)
+
+
+
 
 
 
