@@ -19,5 +19,11 @@ print(list1)
 dict1 = {'Name' : 'yaser sarhan', 'Age' : 37 , 'Job' : 'Accountant'}
 print(dict1)
 print(dict1['Name'], dict1['Age'])
+dict1['Job'] = 'Developer'
+print(dict1['Job'])
+
+dict1['School'] = 'Yas School'
+print(dict1['School'])
+print(dict1)
 
 
