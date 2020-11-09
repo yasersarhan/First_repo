@@ -41,7 +41,7 @@ print(d)
 d.update(f)
 print(d)
 
-
+x = {1: 'Arabic', 2: 'English', 3: 'History'}
 
 
 
