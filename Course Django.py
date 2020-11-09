@@ -11,7 +11,7 @@ print(tup3)
 
 del tup2
 print(tup3)
-print(tup2)
 
+print(tup1[2:])
 
 
