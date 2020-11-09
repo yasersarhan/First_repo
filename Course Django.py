@@ -18,6 +18,6 @@ print(list1)
 
 dict1 = {'Name' : 'yaser sarhan', 'Age' : 37 , 'Job' : 'Accountant'}
 print(dict1)
-
+print(dict1['Name'], dict1['Age'])
 
 
