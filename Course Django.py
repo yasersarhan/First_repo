@@ -26,4 +26,14 @@ dict1['School'] = 'Yas School'
 print(dict1['School'])
 print(dict1)
 
+del dict1['Name']
+print(dict1)
+
+dict1.clear()
+print(dict1)
+
+del dict1
+print(dict1)
+
+
 
