@@ -16,5 +16,8 @@ print(tup1[2:])
 list1 = list(tup1)
 print(list1)
 
+dict1 = {'Name' : 'yaser sarhan', 'Age' : 37 , 'Job' : 'Accountant'}
+print(dict1)
+
 
 
