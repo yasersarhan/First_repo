@@ -10,10 +10,20 @@ class Calculator():
 
 
 my_calc = Calculator()
-
 my_calc.sum(4,5)
 
-your_calc = Calculator()
-your_calc.mul(8,9)
+class Scientific(Calculator):
+    def power(self,x,y):
+       print(x**y)
 
+    def divison(slef,x,y):
+       print(x/y)
+
+    def sub(self,x,y):
+        print(x-y)
+
+x = Scientific()
+x.sum(1,1)
+
+    
 
