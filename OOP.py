@@ -9,3 +9,7 @@ class Iphone():
 
 my_iphone = Iphone()
 my_iphone.open_camera()
+
+your_iphone = Iphone()
+your_iphone.passlock()
+
