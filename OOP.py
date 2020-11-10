@@ -1,15 +1,14 @@
-class Iphone():
+class Calculator():
 
-    def open_camera(self):
-        print('opening camera')
+    def sum (self,x,y):
+        print(x+y)
 
-    def passlock(self):
-        print('trying to open')
+    def mul (self,x,y):
+        print(x*y)
 
 
-my_iphone = Iphone()
-my_iphone.open_camera()
+my_calc = Calculator()
+my_calc.sum(4,5)
+my_calc.mul(3,8)
 
-your_iphone = Iphone()
-your_iphone.passlock()
 
