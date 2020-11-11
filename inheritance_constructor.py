@@ -13,7 +13,7 @@ class Calc(Main):
 
 class ScientificCalc(Calc):
     def __init__(self, name):
-        super(ScientificCalc, self).__init__(name)
+        super().__init__(name)
         print('Hello yaser')
 
     def sum(self, x, y):
