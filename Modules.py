@@ -11,3 +11,7 @@ file.close()
 file = open('Test2_File.txt', 'w')
 print(file.write('Mona yaser sarhan'))
 file.close()
+
+file = open('Test2_File.txt', 'a')
+print(file.write('\nWelcome in python world'))
+file.close()
