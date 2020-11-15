@@ -22,5 +22,11 @@ class Game:
     def __init__(self):
         
         print('Welcom In Our Game')
+        print('''
+            Press the game number:
+                1) Multiplication table.
+                2) Remove dublicated chars.
+                ''')
+        user_choice = int(input('Enter your choice number: '))
 
 g = Game()
