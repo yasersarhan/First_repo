@@ -8,10 +8,19 @@ for num in range(start, end+1):
        print(f'{value} x {num} = {result}')
    print('----------')
 '''
+'''
 word = input('Enter a word: ')
 letters = []
 for letter in word:
     if letter in letters:
         continue
-    letters.append(letter)
+    else:
+        letters.append(letter)
 print(letters)
+'''
+class Game:
+    def __init__(self):
+        
+        print('Welcom In Our Game')
+
+g = Game()
