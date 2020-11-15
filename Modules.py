@@ -1,10 +1,8 @@
 import os
+import time
 
-#os.remove('Test2_File.txt')
+os.mkdir('python for all')
 
-#os.mkdir('python full stack')
+time.sleep(10)
 
-#os.chdir('D:\Yaser sarhan\Django\Tasks')
-#print(os.getcwd())
-
-os.rmdir('python full stack')
+os.rmdir('python for all')
