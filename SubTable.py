@@ -11,5 +11,7 @@ for num in range(start, end+1):
 word = input('Enter a word: ')
 letters = []
 for letter in word:
+    if letter in letters:
+        continue
     letters.append(letter)
 print(letters)
