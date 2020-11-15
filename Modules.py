@@ -4,6 +4,10 @@ print(words)
 
 file.close()
 
-file = open('Test2_File.txt', 'w+')
+file = open('Test2_File.txt', 'w')
 print(file.write('Welcome in python world'))
+file.close()
+
+file = open('Test2_File.txt', 'w')
+print(file.write('Mona yaser sarhan'))
 file.close()
