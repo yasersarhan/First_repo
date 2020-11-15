@@ -1,4 +1,3 @@
 import os
 
-os.rename('newfile.txt', 'yaser_family')
-
+os.remove('Test2_File.txt')
